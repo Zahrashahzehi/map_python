@@ -8,7 +8,6 @@ upper_name = list(map(lambda name : name.upper() , names))
 print(upper_name)
 print("======================================")
 pepale = [{"name" : "zahra" , "family" : "shahzehi" , "age" : 20} ,
-{"name":"atta" , "family": "attarian" , "age" : 21}
-, {"name" : "amir" , "family" : "ajam" , "age" : 23}]
+{"name":"atta" , "family": "attarian" , "age" : 21}]
 family = list(map(lambda person : person["family"] , pepale))
 print(family)
